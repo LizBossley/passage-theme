@@ -45,6 +45,7 @@ if ( ! function_exists( 'passage_setup' ) ) :
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
 			'menu-1' => esc_html__( 'Primary', 'passage' ),
+			'menu-top-right' => esc_html__( 'Header Top Right', 'passage' ),
 		) );
 
 		/*

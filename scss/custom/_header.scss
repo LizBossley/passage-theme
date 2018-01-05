@@ -1,0 +1,18 @@
+.site-header{
+	.site-branding{
+		text-align: center;
+	}
+	.main-navigation{
+		border-top: 1px solid $pt-secondary;
+		border-bottom: 1px solid $pt-secondary;
+		.current-menu-item{
+			border-bottom: 3px solid $pt-secondary-light;
+		}
+	}
+}
+
+.header--top{
+	display: flex;
+	background-color: $pt-secondary-light;
+	justify-content: flex-end;
+}

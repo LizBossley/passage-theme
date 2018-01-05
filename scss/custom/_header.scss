@@ -8,6 +8,14 @@
 		.current-menu-item{
 			border-bottom: 3px solid $pt-secondary-light;
 		}
+		li{
+			a{
+				color: $black;
+			}
+			&:hover{
+				background-color: $pt-gray-light;
+			}
+		}
 	}
 }
 
@@ -15,4 +23,16 @@
 	display: flex;
 	background-color: $pt-secondary-light;
 	justify-content: flex-end;
-}
+	#social-menu{
+		a{
+			color: $black;
+		}
+		li{
+			&:hover{
+				a{
+					color: $pt-gray-light;
+				}
+			}
+		}
+	}
+}	

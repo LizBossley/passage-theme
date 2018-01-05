@@ -1,0 +1,24 @@
+.site-footer{
+	background-color: $pt-primary-dark;
+	color: $pt-gray-light;
+	text-align: center;
+	padding: 2rem 0;
+	a{
+		color: $pt-gray-light;
+		&:hover{
+			text-decoration: underline;
+		}
+	}
+
+    #footer-menu{
+    	justify-content: center;
+    	a{
+    		color: $pt-primary-light;
+    	}
+    	.current-menu-item{
+    		a{
+    			text-decoration: underline;
+    		}
+    	}
+    }
+}

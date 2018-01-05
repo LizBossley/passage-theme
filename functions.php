@@ -46,6 +46,7 @@ if ( ! function_exists( 'passage_setup' ) ) :
 		register_nav_menus( array(
 			'menu-1' => esc_html__( 'Primary', 'passage' ),
 			'menu-top-right' => esc_html__( 'Header Top Right', 'passage' ),
+			'menu-footer' => esc_html__( 'Footer', 'passage' ),
 		) );
 
 		/*
